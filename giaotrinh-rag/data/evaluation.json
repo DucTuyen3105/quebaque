@@ -1,0 +1,107 @@
+[
+  {
+    "question": "SQA là gì và có trách nhiệm gì?",
+    "evidence_pages": [
+      18,
+      42
+    ]
+  },
+  {
+    "question": "Xác minh và thẩm định phần mềm khác nhau như thế nào?",
+    "evidence_pages": [
+      43
+    ]
+  },
+  {
+    "question": "Vì sao kiểm thử cần được thực hiện trong mọi pha phát triển phần mềm?",
+    "evidence_pages": [
+      17,
+      18
+    ]
+  },
+  {
+    "question": "Mô hình xoắn ốc được trình bày như thế nào?",
+    "evidence_pages": [
+      37,
+      38
+    ]
+  },
+  {
+    "question": "Mô hình xây sửa có những đặc điểm gì?",
+    "evidence_pages": [
+      26
+    ]
+  },
+  {
+    "question": "Ba kiểu lớp chính trong phân tích hướng đối tượng là gì?",
+    "evidence_pages": [
+      92
+    ]
+  },
+  {
+    "question": "Use case mô tả tương tác với tác nhân như thế nào?",
+    "evidence_pages": [
+      93
+    ]
+  },
+  {
+    "question": "Kịch bản và use case có quan hệ gì?",
+    "evidence_pages": [
+      92,
+      93
+    ]
+  },
+  {
+    "question": "Thiết kế kiến trúc và thiết kế chi tiết có đầu vào và đầu ra gì?",
+    "evidence_pages": [
+      120
+    ]
+  },
+  {
+    "question": "Rà soát lướt qua được tổ chức như thế nào?",
+    "evidence_pages": [
+      43,
+      44
+    ]
+  },
+  {
+    "question": "COCOMO được dùng để ước lượng như thế nào?",
+    "evidence_pages": [
+      57,
+      58,
+      60,
+      61
+    ]
+  },
+  {
+    "question": "Phỏng vấn có vai trò gì trong xác định yêu cầu?",
+    "evidence_pages": [
+      68,
+      69
+    ]
+  },
+  {
+    "question": "Thời tiết Hà Nội ngày mai thế nào?",
+    "evidence_pages": []
+  },
+  {
+    "question": "Giá bitcoin hôm nay bao nhiêu?",
+    "evidence_pages": []
+  },
+  {
+    "question": "Nấu phở như thế nào?",
+    "evidence_pages": []
+  },
+  {
+    "question": "Ở trong pha phân tích, để trích xuất được các lớp thì bước đầu tiên là gì?",
+    "evidence_pages": [
+      92
+    ]
+  },
+  {
+    "question": "Trong pha phân tích, bước đầu để trích rút các lớp là gì?",
+    "evidence_pages": [
+      92
+    ]
+  }
+]

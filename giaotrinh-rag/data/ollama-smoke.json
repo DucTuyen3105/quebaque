@@ -1,0 +1,166 @@
+{
+  "sources": [
+    {
+      "id": "p043-0",
+      "text": "• “V & V” o Xác minh (Verification)  Xác định nếu luồng công việc được hoàn thiện chính xác Determine if the workflow was completed correctly o Thẩm định (Validation)  Xác định nếu toàn bộ sản phẩm đáp ứng các yêu cầu đưa ra (Determine if the product as a whole satisfies its requirements) o Thuật ngữ “xác minh” cũng được sử dụng cho kiểm thử không có sự thực thi. 4.3 CÁC PHƯƠNG PHÁP KIỂM CHỨNG 4.3.1. Kiểm thử không có sự thực thi • Nguyên lý cơ bản o Chúng ta không nên tự mình rà soát công việc của mình o Có sự hiệp lực trong nhóm 4.3.1.1 Rà soát lướt qua (Walkthrough) • Đội rà soát lướt qua bao gồm từ 4 đến 6 thành viên • Nó bao gồm đại diện của o Đội chịu trách nhiệm cho luồng công việc hiện thời o Đội chịu trách nhiệm cho luồng công việc tiếp thep o Nhóm SQA • Rà soát lướt qua được nói trước bởi sự chuẩn bị o Danh sách các mục  Các mục không hiểu  Các mục mà xuất hiện ở dạng lỗi Quản lý rà soát lướt qua: • Đội rà soát lướt qua được đại diện",
+      "pdf_page": 43,
+      "printed_page": 42,
+      "chapter": 4,
+      "chapter_title": "Kiểm thử",
+      "section": "4.3 CÁC PHƯƠNG PHÁP KIỂM CHỨNG",
+      "concepts": [
+        "requirements",
+        "testing",
+        "sqa",
+        "verification",
+        "validation",
+        "walkthrough",
+        "static-testing"
+      ],
+      "citation": 1,
+      "score": 0.8602,
+      "via": [
+        "Xác minh",
+        "Thẩm định",
+        "Đảm bảo chất lượng (SQA)"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=43"
+    },
+    {
+      "id": "p178-0",
+      "text": "o Thực hiện các trương hợp kiểm thử hộp đen đối với toàn sản phẩm phần mềm o Tính mạnh mẽ của toàn bộ sản phẩm  Stress testing (under peak load)  Volume testing (e.g., can it handle large input files?) o Tất cả những ràng buộc phải được kiểm tra o Tất cả tài liệu phải được  Kiểm tra tính chính xác  Kiểm tra sự tương thích với chuẩn  Xác minh lại với phiên bản hiện thời của phần mềm • Sản phẩm phần mềm (tài liệu và mã) được chuyển giao cho tổ chức khách hàng để thực hiện kiểm thử chấp nhận 9.4 KIỂM THỬ CHẤP NHẬN • Khách hàng xác định liệu phần mềm thoả mãn những đặc tả của nó • Kiểm thử chấp nhận được thực hiện bởi o Tổ chức khách hàng, hoặc o Đội SQA cùng với sự có mặt của đại diện của khách hàng, hoặc o Đội SQA độc lập được khách hàng thuê • Bốn thành phần chính của kiểm thử chấp nhận là o Tính chính xác o Tính mạnh mẽ o Hiệu năng o Tài liệu • Những thành phần này được kiểm thử cẩn thận bởi người phát triển trong suốt quá",
+      "pdf_page": 178,
+      "printed_page": 177,
+      "chapter": 9,
+      "chapter_title": "Pha cài đặt và tích hợp",
+      "section": "9.4 KIỂM THỬ CHẤP NHẬN",
+      "concepts": [
+        "specification",
+        "testing",
+        "sqa",
+        "verification",
+        "blackbox",
+        "acceptance-testing",
+        "test-case"
+      ],
+      "citation": 2,
+      "score": 0.5676,
+      "via": [
+        "Xác minh",
+        "Đảm bảo chất lượng (SQA)",
+        "Kiểm thử"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=178"
+    },
+    {
+      "id": "p051-0",
+      "text": "o Chuyện gì sẽ xảy ra nếu các đặc tả là sai? o Chúng ta có thể chưa bao giờ chắc chắn rằng các đặc tả hoặc hệ thống xác minh là chính xác • Sự kiểm chứng tính chính xác là một công cụ kỹ nghệ phần mềm quan trọng, thích hợp với: o Khi cuộc sống con người đang lâm nguy (When human lives are at stake) o Khi đã được chỉ ra bởi phân tích lợi nhận – chi phí (When indicated by cost– benefit analysis) o Khi rủi ro của việc không phân tích quá lớn (When the risk of not proving is too great) • Sự kiểm chứng không hình thức có thể cải thiện chất lượng của phần mềm o Sử dụng những câu lệnh assert 4.4.4 Ai thực hiện kiểm thử phần mềm • Lập trình là xây dựng • Kiểm thử là phá huỷ o Một kiểm thử thành công tìm ra một lỗi • Vì thế, những người lập trình không nên kiểm thử chính tài liệu mã của họ viết • Giải pháp: o Người lập trình thực hiện kiểm thử không hình thức o Sau đó nhóm SQA thực hiện kiểm thử một cách hệ thống o Người lập",
+      "pdf_page": 51,
+      "printed_page": 50,
+      "chapter": 4,
+      "chapter_title": "Kiểm thử",
+      "section": "4.4.4 Ai thực hiện kiểm thử phần mềm",
+      "concepts": [
+        "specification",
+        "testing",
+        "sqa",
+        "verification",
+        "risk"
+      ],
+      "citation": 3,
+      "score": 0.5676,
+      "via": [
+        "Xác minh",
+        "Đảm bảo chất lượng (SQA)",
+        "Kiểm thử"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=51"
+    },
+    {
+      "id": "p172-0",
+      "text": "o Rà soát mã phát hiện được nhiều lỗi hơn o Rà soát mã có tốc độ phát hiện lỗi nhanh hơn • Kết luận o Rà soát kỹ lưỡng mã ít nhất cũng fát hiện được số lượng lỗi bằng với kiểm thử hộp đen và hộp kính 9.2.1.5 Cleanroom • Là một phương pháp tiếp cận khác đối với phát triển phần mềm • Hợp nhất o Mô hình tiến trình tăng o Các kỹ thuật hình thức o Các kiểu rà soát • Prototype automated documentation system for the U.S. Naval Underwater Systems Center • 1820 dòng của FoxBASE o 18 lỗi được phát hiện bởi “xác minh chức năng” o Kiểm tra không hình thức được sử dụng o 19 lỗi được phát hiện bằng rà soát lướt qua trước khi biên dịch o Không có lỗi biên dịch o Không có sự thất bại ở thời gian thực thi Sự khác nhau trong việc tính toán tỷ lệ lỗi kiểm thử: • Các mô hình thông thường: o Đếm số lỗi sau khi kiểm thử không hình thức được hoàn thành (Khi SQA bắt đầu) • Cleanroom o Đếm số lỗi sau khi rà soát kỹ lưỡng được hoàn thành (khi biên dịch được bắt",
+      "pdf_page": 172,
+      "printed_page": 171,
+      "chapter": 9,
+      "chapter_title": "Pha cài đặt và tích hợp",
+      "section": "9.2.1.5 Cleanroom",
+      "concepts": [
+        "testing",
+        "sqa",
+        "verification",
+        "walkthrough",
+        "blackbox",
+        "prototype"
+      ],
+      "citation": 4,
+      "score": 0.5361,
+      "via": [
+        "Xác minh",
+        "Đảm bảo chất lượng (SQA)",
+        "Kiểm thử"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=172"
+    },
+    {
+      "id": "p050-0",
+      "text": "4.4.3 Sự kiểm chứng tính chính xác và kỹ nghệ phần mềm • Ba chuyện tưởng tượng trong chứng minh tính chính xác o Kỹ sư phần mềm không đủ kiến thức toán học để kiểm chứng  Hầu hết các nghành khoa học máy tính hoặc biết hoặc có thể học toán học đã yêu cầu cho kiểm chứng o Việc chứng minh yêu cầu chi phí rất cao trong thực tế  Khả năng kinh tế được xác định từ phân tích lợi nhuận và chi phí o Việc chứng minh quá khó khăn  Nhiều sản phảm phần mềm không bình thường đã được chứng minh thành công  Các công cụ giống như chứng minh định lý có thể sẽ hữu ích • Những khó khăn khi chứng minh tính chính xác o Chúng ta có thể tin vào cách chứng minh định lý không? o Chúng ta tìm các đặc tả đầu vào, đầu ra, số lượng vòng lặp như thế nào?",
+      "pdf_page": 50,
+      "printed_page": 49,
+      "chapter": 4,
+      "chapter_title": "Kiểm thử",
+      "section": "4.4.3 Sự kiểm chứng tính chính xác và kỹ nghệ phần mềm",
+      "concepts": [
+        "specification"
+      ],
+      "citation": 5,
+      "score": 0.4735,
+      "via": [
+        "Đặc tả"
+      ],
+      "graph_expanded": true,
+      "url": "/api/document#page=50"
+    },
+    {
+      "id": "p017-1",
+      "text": "kiểm tra kỹ trước khi giao) - Phụ thuộc vào cá nhân Có pha kiểm thử không? • KHÔNG có pha kiểm thử. Vì sao? Kiểm thử là hoạt động thực hiện trong mọi pha của sản xuất phần mềm. • Check = test • Testing: Thương được hiểu sau khi coding • Kiểm tra (Varification): Thực hiện vào cuối mỗi pha • Kiểm chứng (Validation): Thực hiện trước khi giao sản phẩm cho khách hàng Có pha viết tài liệu không? • KHÔNG có pha viết tài liệu • Mọi pha phải được viết tài liệu trước khi khởi đầu một pha mới. • Một số lý do: - Tài liệu bị hoãn lại thì sẽ không bao giờ hoàn thành - Cá nhân chịu trách nhiệm trong pha trước có thể đã chuyển sang bộ phận khác. - Sản phẩm thường xuyên thay đổi trong khi phát triển vì thế ta cần tài liệu để ghi lại điều này. Ví dụ, thiết kế thường phải sửa đổi trong khi cài đặt. Việc sửa đổi như vậy chỉ có thể thực hiện được khi có tài liệu của nhóm thiết kế.",
+      "pdf_page": 17,
+      "printed_page": 16,
+      "chapter": 2,
+      "chapter_title": "Các pha phát triển phần mềm",
+      "section": "2.1 TIẾN TRÌNH THÀNH PHẦN",
+      "concepts": [
+        "testing",
+        "validation"
+      ],
+      "citation": 6,
+      "score": 0.4354,
+      "via": [
+        "Thẩm định",
+        "Kiểm thử"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=17"
+    }
+  ],
+  "concepts": [
+    "verification",
+    "validation"
+  ],
+  "backend": "embeddinggemma + BM25 + TF-IDF",
+  "warnings": [],
+  "graph_added": 1,
+  "answer": "Xác minh (Verification) là quá trình xác định liệu luồng công việc đã được hoàn thiện chính xác, trong khi Thẩm định (Validation) là quá trình xác định liệu toàn bộ sản phẩm đáp ứng các yêu cầu đưa ra. [1]\n\nXác minh tập trung vào việc kiểm tra tính chính xác của luồng công việc, trong khi Thẩm định tập trung vào việc kiểm tra liệu sản phẩm có đáp ứng các yêu cầu cụ thể. [1]",
+  "answer_mode": "generated",
+  "generation_warning": null,
+  "mode": "graph",
+  "model": "qwen3:1.7b",
+  "retrieval_ms": 35,
+  "elapsed_ms": 10720,
+  "context_citations": [
+    1
+  ]
+}

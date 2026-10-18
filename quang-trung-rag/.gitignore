@@ -1,0 +1,9 @@
+.venv/
+.runtime/
+.env
+__pycache__/
+.pytest_cache/
+data/index/
+data/*.log
+data/*.pid
+data/screenshots/

@@ -1,0 +1,1048 @@
+{
+  "title": "Quang Trung đại phá quân Thanh · Kỷ Dậu 1789",
+  "compiled_at": "2026-10-17",
+  "description": "Ghi chép biên soạn và diễn giải ngắn từ các nguồn công khai đã đối chiếu; không phải bản sao toàn văn hay nguyên bản sử liệu.",
+  "categories": [
+    {
+      "id": "boi-canh",
+      "title": "Bối cảnh & quyết sách"
+    },
+    {
+      "id": "chuan-bi",
+      "title": "Chuẩn bị & hành quân"
+    },
+    {
+      "id": "dien-bien",
+      "title": "Diễn biến chiến dịch"
+    },
+    {
+      "id": "nghe-thuat",
+      "title": "Tổ chức & nghệ thuật quân sự"
+    },
+    {
+      "id": "nhan-vat",
+      "title": "Nhân vật & ngoại giao"
+    },
+    {
+      "id": "di-san",
+      "title": "Ý nghĩa & di sản"
+    }
+  ],
+  "sources": [
+    {
+      "id": "btlsqg-2014",
+      "title": "Quang Trung – Nguyễn Huệ đại phá quân Thanh",
+      "publisher": "Bảo tàng Lịch sử Quốc gia",
+      "published_at": "2014-01-30",
+      "url": "https://baotanglichsu.vn/VI/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html",
+      "note": "Bài tổng hợp kỷ niệm chiến thắng; các ghi chép trong dự án là diễn giải có nguồn."
+    },
+    {
+      "id": "chinhphu-2013",
+      "title": "Chiến thắng hiển hách trong lịch sử chống ngoại xâm",
+      "publisher": "Báo Điện tử Chính phủ",
+      "published_at": "2013-02-14",
+      "url": "https://baochinhphu.vn/chien-thang-hien-hach-trong-lich-su-chong-ngoai-xam-102138325.htm",
+      "note": "Nguồn gọi chỉ huy hướng Đống Đa là Đặng Tiến Đông và nêu quân số Thanh 20 vạn; giữ nguyên cách ghi khi đối chiếu."
+    },
+    {
+      "id": "bthcm-haucan",
+      "title": "Hậu cần trận Ngọc Hồi – Đống Đa",
+      "publisher": "Bảo tàng Lịch sử TP.HCM",
+      "published_at": "2024-02-13",
+      "url": "https://www.baotanglichsutphcm.com.vn/ban-tin/cong-tac-bao-dam-hau-can-tran-ngoc-hoi-dong-da-tet-ky-dau-1789",
+      "note": "Bài nghiên cứu khía cạnh hậu cần; không dùng ngày tháng khác biệt trong bài để tự đổi lịch."
+    },
+    {
+      "id": "bthcm-lucluong",
+      "title": "Tổ chức lực lượng tại Ngọc Hồi – Đống Đa",
+      "publisher": "Bảo tàng Lịch sử TP.HCM",
+      "published_at": "2021-02-13",
+      "url": "https://www.baotanglichsutphcm.com.vn/ban-tin/nghe-thuat-to-chuc-luc-luong-trong-tran-quyet-chien-chien-luoc-ngoc-hoi-dong-da-nam-1789",
+      "note": "Nguồn dùng tên Đô đốc Long cho hướng Khương Thượng và ghi 29 vạn quân Thanh; không mặc định đồng nhất với tên gọi ở nguồn khác."
+    },
+    {
+      "id": "btlsqg-nham",
+      "title": "Danh nhân Ngô Thì Nhậm (1746–1803)",
+      "publisher": "Bảo tàng Lịch sử Quốc gia",
+      "published_at": null,
+      "url": "https://baotanglichsu.vn/vi/Articles/3098/18022/danh-nhan-ngo-thi-nham-1746-1803.html",
+      "note": "Chỉ chọn phần liên quan đến kế sách Tam Điệp và ngoại giao thời Quang Trung."
+    },
+    {
+      "id": "dsvh-dongda",
+      "title": "Gò Đống Đa",
+      "publisher": "Cục Di sản văn hóa",
+      "published_at": null,
+      "url": "https://dsvh.gov.vn/go-dong-da-3285",
+      "note": "Thông tin về di tích và ký ức lịch sử; không đồng nhất địa danh lịch sử với địa giới hành chính hiện tại."
+    }
+  ],
+  "entities": [
+    {
+      "id": "quang-trung",
+      "label": "Quang Trung",
+      "kind": "person",
+      "aliases": [
+        "Quang Trung",
+        "Nguyễn Huệ",
+        "Bắc Bình Vương",
+        "vua Quang Trung"
+      ]
+    },
+    {
+      "id": "tay-son",
+      "label": "Quân Tây Sơn",
+      "kind": "force",
+      "aliases": [
+        "Tây Sơn",
+        "nghĩa quân",
+        "quân ta"
+      ]
+    },
+    {
+      "id": "quan-thanh",
+      "label": "Quân Thanh",
+      "kind": "force",
+      "aliases": [
+        "quân Thanh",
+        "Mãn Thanh",
+        "nhà Thanh"
+      ]
+    },
+    {
+      "id": "ton-si-nghi",
+      "label": "Tôn Sĩ Nghị",
+      "kind": "person",
+      "aliases": [
+        "Tôn Sĩ Nghị"
+      ]
+    },
+    {
+      "id": "sam-nghi-dong",
+      "label": "Sầm Nghi Đống",
+      "kind": "person",
+      "aliases": [
+        "Sầm Nghi Đống"
+      ]
+    },
+    {
+      "id": "le-chieu-thong",
+      "label": "Lê Chiêu Thống",
+      "kind": "person",
+      "aliases": [
+        "Lê Chiêu Thống"
+      ]
+    },
+    {
+      "id": "ngo-van-so",
+      "label": "Ngô Văn Sở",
+      "kind": "person",
+      "aliases": [
+        "Ngô Văn Sở"
+      ]
+    },
+    {
+      "id": "ngo-thi-nham",
+      "label": "Ngô Thì Nhậm",
+      "kind": "person",
+      "aliases": [
+        "Ngô Thì Nhậm",
+        "Ngô Thời Nhậm"
+      ]
+    },
+    {
+      "id": "do-doc-bao",
+      "label": "Đô đốc Bảo",
+      "kind": "person",
+      "aliases": [
+        "Đô đốc Bảo",
+        "Đại đô đốc Bảo"
+      ]
+    },
+    {
+      "id": "do-doc-long",
+      "label": "Đô đốc Long",
+      "kind": "person",
+      "aliases": [
+        "Đô đốc Long"
+      ]
+    },
+    {
+      "id": "dang-tien-dong",
+      "label": "Đặng Tiến Đông",
+      "kind": "person",
+      "aliases": [
+        "Đặng Tiến Đông"
+      ]
+    },
+    {
+      "id": "do-doc-tuyet",
+      "label": "Đô đốc Tuyết",
+      "kind": "person",
+      "aliases": [
+        "Đô đốc Tuyết",
+        "Nguyễn Văn Tuyết"
+      ]
+    },
+    {
+      "id": "do-doc-loc",
+      "label": "Đô đốc Lộc",
+      "kind": "person",
+      "aliases": [
+        "Đô đốc Lộc"
+      ]
+    },
+    {
+      "id": "phu-xuan",
+      "label": "Phú Xuân",
+      "kind": "place",
+      "aliases": [
+        "Phú Xuân",
+        "Huế"
+      ]
+    },
+    {
+      "id": "nghe-an",
+      "label": "Nghệ An",
+      "kind": "place",
+      "aliases": [
+        "Nghệ An"
+      ]
+    },
+    {
+      "id": "tam-diep",
+      "label": "Tam Điệp – Biện Sơn",
+      "kind": "place",
+      "aliases": [
+        "Tam Điệp",
+        "Biện Sơn",
+        "Ba Dội"
+      ]
+    },
+    {
+      "id": "ha-hoi",
+      "label": "Hà Hồi",
+      "kind": "place",
+      "aliases": [
+        "Hà Hồi",
+        "Hạ Hồi"
+      ]
+    },
+    {
+      "id": "ngoc-hoi",
+      "label": "Ngọc Hồi",
+      "kind": "place",
+      "aliases": [
+        "Ngọc Hồi"
+      ]
+    },
+    {
+      "id": "khuong-thuong",
+      "label": "Khương Thượng – Đống Đa",
+      "kind": "place",
+      "aliases": [
+        "Khương Thượng",
+        "Đống Đa",
+        "Đống đa"
+      ]
+    },
+    {
+      "id": "thang-long",
+      "label": "Thăng Long",
+      "kind": "place",
+      "aliases": [
+        "Thăng Long",
+        "kinh thành"
+      ]
+    },
+    {
+      "id": "dam-muc",
+      "label": "Đầm Mực",
+      "kind": "place",
+      "aliases": [
+        "Đầm Mực"
+      ]
+    },
+    {
+      "id": "hai-duong",
+      "label": "Hải Dương",
+      "kind": "place",
+      "aliases": [
+        "Hải Dương"
+      ]
+    },
+    {
+      "id": "bac-giang",
+      "label": "Bắc Giang",
+      "kind": "place",
+      "aliases": [
+        "Bắc Giang"
+      ]
+    },
+    {
+      "id": "tuong-binh",
+      "label": "Tượng binh",
+      "kind": "tactic",
+      "aliases": [
+        "tượng binh",
+        "voi chiến"
+      ]
+    },
+    {
+      "id": "bat-ngo",
+      "label": "Bí mật & bất ngờ",
+      "kind": "tactic",
+      "aliases": [
+        "bất ngờ",
+        "bí mật",
+        "thần tốc",
+        "chớp nhoáng"
+      ]
+    },
+    {
+      "id": "hau-can",
+      "label": "Hậu cần",
+      "kind": "tactic",
+      "aliases": [
+        "hậu cần",
+        "lương thực",
+        "tiếp tế",
+        "tuyển quân"
+      ]
+    },
+    {
+      "id": "ngoai-giao",
+      "label": "Ngoại giao",
+      "kind": "tactic",
+      "aliases": [
+        "ngoại giao",
+        "hòa hiếu",
+        "giảng hòa"
+      ]
+    },
+    {
+      "id": "chien-dich-1789",
+      "label": "Chiến dịch Kỷ Dậu 1789",
+      "kind": "event",
+      "aliases": [
+        "Kỷ Dậu",
+        "chiến dịch",
+        "đại phá quân Thanh",
+        "chiến thắng 1789"
+      ]
+    },
+    {
+      "id": "le-hoi",
+      "label": "Lễ hội Đống Đa",
+      "kind": "event",
+      "aliases": [
+        "lễ hội",
+        "tưởng niệm",
+        "kỷ niệm",
+        "giỗ trận"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "boi-canh-1788",
+      "category": "boi-canh",
+      "title": "Cuối năm 1788: quân Thanh tiến vào",
+      "source_id": "btlsqg-2014",
+      "text": "Cuối năm 1788, sau lời cầu viện của Lê Chiêu Thống, quân Thanh do Tôn Sĩ Nghị chỉ huy tiến vào Đại Việt. Ngô Văn Sở đưa lực lượng Tây Sơn từ Thăng Long về phòng tuyến Tam Điệp – Biện Sơn, đồng thời báo tin cho Nguyễn Huệ ở Phú Xuân.",
+      "entities": [
+        "le-chieu-thong",
+        "quan-thanh",
+        "ton-si-nghi",
+        "ngo-van-so",
+        "tay-son",
+        "thang-long",
+        "tam-diep",
+        "quang-trung",
+        "phu-xuan"
+      ],
+      "keywords": [
+        "nguyên nhân",
+        "bối cảnh",
+        "xâm lược"
+      ]
+    },
+    {
+      "id": "len-ngoi",
+      "category": "chuan-bi",
+      "title": "Nguyễn Huệ lên ngôi và tiến quân ra Bắc",
+      "source_id": "btlsqg-2014",
+      "text": "Ngày 22/12/1788, Nguyễn Huệ lên ngôi Hoàng đế tại Phú Xuân, lấy niên hiệu Quang Trung, rồi tiến quân ra Bắc. Nguồn Bảo tàng Lịch sử Quốc gia ghi đại quân tập trung ở Tam Điệp – Biện Sơn ngày 15/01/1789.",
+      "entities": [
+        "quang-trung",
+        "phu-xuan",
+        "tam-diep",
+        "tay-son"
+      ],
+      "keywords": [
+        "lên ngôi",
+        "niên hiệu",
+        "thời gian",
+        "hành quân"
+      ]
+    },
+    {
+      "id": "tam-chan",
+      "category": "nghe-thuat",
+      "title": "Tấm chắn trong trận Ngọc Hồi",
+      "source_id": "btlsqg-2014",
+      "text": "Ở Ngọc Hồi, quân Tây Sơn dùng tượng binh mở đường và đội xung kích mang lá chắn bằng ván gỗ bọc rơm ướt để áp sát chiến lũy quân Thanh. Sự phối hợp này giúp vượt qua hỏa lực phòng thủ rồi đánh giáp chiến.",
+      "entities": [
+        "ngoc-hoi",
+        "tay-son",
+        "tuong-binh",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "chiến thuật",
+        "tấm chắn",
+        "rơm ướt",
+        "hỏa lực",
+        "vũ khí"
+      ]
+    },
+    {
+      "id": "thang-long-giai-phong",
+      "category": "di-san",
+      "title": "Tiến vào Thăng Long và kết quả chiến dịch",
+      "source_id": "btlsqg-2014",
+      "text": "Trưa 30/01/1789, Quang Trung cùng đại quân tiến vào Thăng Long. Chiến thắng đánh bại cuộc xâm lược của quân Thanh và giải phóng kinh thành.",
+      "entities": [
+        "quang-trung",
+        "tay-son",
+        "thang-long",
+        "quan-thanh",
+        "chien-dich-1789"
+      ],
+      "keywords": [
+        "kết quả",
+        "ý nghĩa",
+        "giải phóng",
+        "độc lập"
+      ]
+    },
+    {
+      "id": "khao-quan",
+      "category": "chuan-bi",
+      "title": "Khao quân, ăn Tết trước",
+      "source_id": "chinhphu-2013",
+      "text": "Cuối tháng Chạp năm Mậu Thân, Quang Trung cho quân Tây Sơn ăn Tết trước, chuẩn bị tiến công bất ngờ.",
+      "entities": [
+        "quang-trung",
+        "tay-son",
+        "bat-ngo"
+      ],
+      "keywords": [
+        "ăn Tết trước",
+        "khao quân",
+        "tinh thần"
+      ]
+    },
+    {
+      "id": "mo-man",
+      "category": "dien-bien",
+      "title": "Đêm giao thừa mở màn cuộc tiến công",
+      "source_id": "chinhphu-2013",
+      "text": "Đêm giao thừa 25/01/1789, Quang Trung chỉ huy quân Tây Sơn vượt sông Gián Thủy, mở màn chiến dịch tiến về Thăng Long.",
+      "entities": [
+        "quang-trung",
+        "tay-son",
+        "chien-dich-1789",
+        "thang-long"
+      ],
+      "keywords": [
+        "mở màn",
+        "bắt đầu",
+        "trình tự",
+        "giao thừa"
+      ]
+    },
+    {
+      "id": "tran-ha-hoi",
+      "category": "dien-bien",
+      "title": "Đêm mồng 3 Tết: hạ đồn Hà Hồi",
+      "source_id": "chinhphu-2013",
+      "text": "Đêm mồng 3 Tết Kỷ Dậu, ngày 28/01/1789, quân Tây Sơn bao vây Hà Hồi, buộc đồn đầu hàng trước trận Ngọc Hồi.",
+      "entities": [
+        "tay-son",
+        "ha-hoi",
+        "ngoc-hoi",
+        "bat-ngo"
+      ],
+      "keywords": [
+        "Hạ Hồi",
+        "đầu hàng",
+        "mồng ba",
+        "thời gian",
+        "trước sau"
+      ]
+    },
+    {
+      "id": "tran-ngoc-hoi",
+      "category": "dien-bien",
+      "title": "Mồng 5 Tết: tiến công Ngọc Hồi",
+      "source_id": "chinhphu-2013",
+      "text": "Sáng mồng 5 Tết Kỷ Dậu, ngày 30/01/1789, Quang Trung chỉ huy quân Tây Sơn dùng tượng binh tiến công Ngọc Hồi, phía nam Thăng Long.",
+      "entities": [
+        "quang-trung",
+        "ngoc-hoi",
+        "tuong-binh",
+        "thang-long",
+        "tay-son",
+        "chien-dich-1789"
+      ],
+      "keywords": [
+        "mồng năm",
+        "ngày nào",
+        "chỉ huy",
+        "diễn biến"
+      ]
+    },
+    {
+      "id": "dong-da-theo-chinhphu",
+      "category": "nhan-vat",
+      "title": "Hướng Đống Đa theo Báo Điện tử Chính phủ",
+      "source_id": "chinhphu-2013",
+      "text": "Nguồn Chính phủ gọi chỉ huy hướng Khương Thượng – Đống Đa là Đặng Tiến Đông, đối đầu Sầm Nghi Đống rồi tiến về Thăng Long; ghi 20 vạn quân Thanh.",
+      "entities": [
+        "dang-tien-dong",
+        "khuong-thuong",
+        "thang-long",
+        "sam-nghi-dong",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "quân số",
+        "bao nhiêu quân",
+        "tên chỉ huy",
+        "đối chiếu nguồn"
+      ]
+    },
+    {
+      "id": "le-hoi-dong-da",
+      "category": "di-san",
+      "title": "Tưởng niệm chiến thắng vào mồng 5 Tết",
+      "source_id": "chinhphu-2013",
+      "text": "Mồng 5 Tết hằng năm, lễ hội Ngọc Hồi – Đống Đa tưởng nhớ Quang Trung và quân Tây Sơn tại Công viên văn hóa Đống Đa, Hà Nội.",
+      "entities": [
+        "le-hoi",
+        "ngoc-hoi",
+        "khuong-thuong",
+        "quang-trung",
+        "tay-son"
+      ],
+      "keywords": [
+        "lễ hội",
+        "tưởng nhớ",
+        "hằng năm"
+      ]
+    },
+    {
+      "id": "tuyen-quan",
+      "category": "chuan-bi",
+      "title": "Tuyển quân và chuẩn bị trên đường ra Bắc",
+      "source_id": "bthcm-haucan",
+      "text": "Trên đường từ Phú Xuân ra Bắc, Quang Trung kết hợp hành quân với tuyển quân. Nghệ An là nơi bổ sung lực lượng và vật chất hậu cần trước khi đại quân Tây Sơn hội tụ ở Tam Điệp.",
+      "entities": [
+        "quang-trung",
+        "phu-xuan",
+        "nghe-an",
+        "hau-can",
+        "tay-son",
+        "tam-diep"
+      ],
+      "keywords": [
+        "hành quân",
+        "lộ trình",
+        "tuyển quân",
+        "chuẩn bị"
+      ]
+    },
+    {
+      "id": "bao-dam-hau-can",
+      "category": "nghe-thuat",
+      "title": "Hậu cần hỗ trợ cuộc hành quân thần tốc",
+      "source_id": "bthcm-haucan",
+      "text": "Tốc độ hành quân của quân Tây Sơn đi cùng tổ chức hậu cần và hậu phương miền Trung. Việc bổ sung quân số, vật chất trên đường giúp lực lượng duy trì sức chiến đấu; tại Hà Hồi, quân Tây Sơn còn thu được vũ khí và lương thực.",
+      "entities": [
+        "tay-son",
+        "hau-can",
+        "bat-ngo",
+        "ha-hoi"
+      ],
+      "keywords": [
+        "vì sao",
+        "nhanh",
+        "tiếp tế",
+        "lương thực",
+        "nguyên nhân thắng lợi"
+      ]
+    },
+    {
+      "id": "dam-muc",
+      "category": "dien-bien",
+      "title": "Đô đốc Bảo và trận địa Đầm Mực",
+      "source_id": "bthcm-haucan",
+      "text": "Sau khi đồn Ngọc Hồi thất thủ, một bộ phận quân Thanh bị dồn về Đầm Mực. Lực lượng do Đô đốc Bảo chỉ huy đã bố trí phục sẵn tại đây để chặn đánh quân rút chạy.",
+      "entities": [
+        "ngoc-hoi",
+        "quan-thanh",
+        "dam-muc",
+        "do-doc-bao",
+        "tay-son"
+      ],
+      "keywords": [
+        "phối hợp",
+        "chặn đường rút",
+        "truy kích",
+        "vai trò"
+      ]
+    },
+    {
+      "id": "nam-dao-quan",
+      "category": "nghe-thuat",
+      "title": "Năm đạo quân và nhiệm vụ phối hợp",
+      "source_id": "bthcm-lucluong",
+      "text": "Nguồn Bảo tàng Lịch sử TP.HCM mô tả năm đạo quân: Quang Trung chỉ huy hướng nam Thăng Long; Đô đốc Bảo phối hợp; Đô đốc Long đánh Khương Thượng; Đô đốc Tuyết đi Hải Dương; Đô đốc Lộc tiến về Bắc Giang để chặn đường rút và viện binh. Nguồn này ghi 29 vạn quân Thanh.",
+      "entities": [
+        "quang-trung",
+        "thang-long",
+        "do-doc-bao",
+        "do-doc-long",
+        "khuong-thuong",
+        "do-doc-tuyet",
+        "hai-duong",
+        "do-doc-loc",
+        "bac-giang",
+        "quan-thanh",
+        "tay-son"
+      ],
+      "keywords": [
+        "năm đạo",
+        "mấy đạo quân",
+        "quân số",
+        "bao nhiêu quân",
+        "Đô đốc Long",
+        "tên chỉ huy",
+        "đối chiếu nguồn"
+      ]
+    },
+    {
+      "id": "the-tran",
+      "category": "nghe-thuat",
+      "title": "Chính diện kết hợp vu hồi và bất ngờ",
+      "source_id": "bthcm-lucluong",
+      "text": "Quang Trung tổ chức tiến công đồng thời từ chính diện, bên sườn và phía sau. Ngọc Hồi là hướng chủ yếu, còn Khương Thượng – Đống Đa là hướng vu hồi. Cách phối hợp nhằm chia cắt, làm rối thế phòng ngự của quân Thanh, thay vì chỉ đánh lần lượt từ phía nam.",
+      "entities": [
+        "quang-trung",
+        "ngoc-hoi",
+        "khuong-thuong",
+        "quan-thanh",
+        "bat-ngo",
+        "tay-son"
+      ],
+      "keywords": [
+        "nghệ thuật quân sự",
+        "chiến thuật",
+        "vì sao thắng",
+        "bất ngờ",
+        "phối hợp"
+      ]
+    },
+    {
+      "id": "ha-hoi-tam-ly",
+      "category": "nghe-thuat",
+      "title": "Gây sức ép tinh thần ở Hà Hồi",
+      "source_id": "bthcm-lucluong",
+      "text": "Tại Hà Hồi, quân Tây Sơn vây kín đồn và gọi hàng, kết hợp tiếng hưởng ứng của quân sĩ để gây sức ép tinh thần. Theo bài viết, cách đánh kết hợp nghi binh với địch vận giúp buộc quân giữ đồn đầu hàng.",
+      "entities": [
+        "ha-hoi",
+        "tay-son",
+        "bat-ngo",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "vì sao đầu hàng",
+        "nghi binh",
+        "tâm lý",
+        "địch vận"
+      ]
+    },
+    {
+      "id": "ke-sach-tam-diep",
+      "category": "boi-canh",
+      "title": "Ngô Thì Nhậm và kế sách lui về Tam Điệp",
+      "source_id": "btlsqg-nham",
+      "text": "Ngô Thì Nhậm đề xuất lui về Tam Điệp – Biện Sơn để bảo toàn quân Tây Sơn, tạm tránh thế mạnh ban đầu của quân Thanh và chờ Quang Trung. Kế sách được Quang Trung đánh giá cao, tạo điều kiện cho cuộc phản công sau đó.",
+      "entities": [
+        "ngo-thi-nham",
+        "tam-diep",
+        "tay-son",
+        "quan-thanh",
+        "quang-trung"
+      ],
+      "keywords": [
+        "rút quân",
+        "vì sao",
+        "bảo toàn lực lượng",
+        "vai trò",
+        "quyết sách"
+      ]
+    },
+    {
+      "id": "ngoai-giao-sau-thang-loi",
+      "category": "nhan-vat",
+      "title": "Ngô Thì Nhậm phụ trách ngoại giao sau chiến thắng",
+      "source_id": "btlsqg-nham",
+      "text": "Sau khi đánh bại quân Thanh, Quang Trung giao Ngô Thì Nhậm đảm trách công việc ngoại giao ở phía Bắc. Ông kết hợp thái độ kiên quyết về chủ quyền với cách ứng xử linh hoạt để giữ hòa hiếu với nhà Thanh.",
+      "entities": [
+        "quang-trung",
+        "ngo-thi-nham",
+        "ngoai-giao",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "sau chiến thắng",
+        "ngoại giao",
+        "hòa hiếu",
+        "vai trò"
+      ]
+    },
+    {
+      "id": "di-tich-dong-da",
+      "category": "di-san",
+      "title": "Gò Đống Đa và không gian ký ức",
+      "source_id": "dsvh-dongda",
+      "text": "Gò Đống Đa gắn với không gian làng Khương Thượng ở vùng ven Thăng Long xưa và ký ức chiến thắng năm 1789. Hồ sơ Cục Di sản văn hóa còn liên hệ các chùa Đồng Quang và Nam Đồng với việc tưởng niệm người tử trận.",
+      "entities": [
+        "khuong-thuong",
+        "thang-long",
+        "chien-dich-1789",
+        "le-hoi"
+      ],
+      "keywords": [
+        "di tích",
+        "địa điểm",
+        "ở đâu",
+        "ký ức"
+      ]
+    },
+    {
+      "id": "xep-hang-di-tich",
+      "category": "di-san",
+      "title": "Gò Đống Đa được xếp hạng di tích quốc gia đặc biệt",
+      "source_id": "dsvh-dongda",
+      "text": "Theo Cục Di sản văn hóa, Gò Đống Đa được xếp hạng di tích quốc gia đặc biệt theo Quyết định 1820/QĐ-TTg ngày 24/12/2018. Giá trị của di tích gắn với chiến thắng Ngọc Hồi – Đống Đa và việc tưởng nhớ Quang Trung.",
+      "entities": [
+        "khuong-thuong",
+        "ngoc-hoi",
+        "quang-trung",
+        "chien-dich-1789"
+      ],
+      "keywords": [
+        "di sản",
+        "xếp hạng",
+        "2018",
+        "di tích"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "ton-si-nghi",
+      "target": "quan-thanh",
+      "label": "Chỉ huy",
+      "relation": "commands",
+      "evidence": [
+        "boi-canh-1788"
+      ]
+    },
+    {
+      "source": "le-chieu-thong",
+      "target": "quan-thanh",
+      "label": "Cầu viện",
+      "relation": "requests_help",
+      "evidence": [
+        "boi-canh-1788"
+      ]
+    },
+    {
+      "source": "ngo-van-so",
+      "target": "tam-diep",
+      "label": "Lui về",
+      "relation": "withdraws_to",
+      "evidence": [
+        "boi-canh-1788"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "phu-xuan",
+      "label": "Lên ngôi tại",
+      "relation": "crowned_at",
+      "evidence": [
+        "len-ngoi"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "tam-diep",
+      "label": "Tập kết tại",
+      "relation": "gathers_at",
+      "evidence": [
+        "len-ngoi"
+      ]
+    },
+    {
+      "source": "ngo-thi-nham",
+      "target": "tam-diep",
+      "label": "Đề xuất kế lui quân",
+      "relation": "plans_retreat",
+      "evidence": [
+        "ke-sach-tam-diep"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "tay-son",
+      "label": "Chỉ huy",
+      "relation": "commands",
+      "evidence": [
+        "mo-man"
+      ]
+    },
+    {
+      "source": "tay-son",
+      "target": "ha-hoi",
+      "label": "Bao vây và hạ đồn",
+      "relation": "captures",
+      "evidence": [
+        "tran-ha-hoi"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "ngoc-hoi",
+      "label": "Chỉ huy tiến công",
+      "relation": "attacks",
+      "evidence": [
+        "tran-ngoc-hoi"
+      ]
+    },
+    {
+      "source": "tay-son",
+      "target": "tuong-binh",
+      "label": "Sử dụng",
+      "relation": "uses",
+      "evidence": [
+        "tam-chan"
+      ]
+    },
+    {
+      "source": "tuong-binh",
+      "target": "ngoc-hoi",
+      "label": "Tham gia tiến công",
+      "relation": "deployed_at",
+      "evidence": [
+        "tam-chan"
+      ]
+    },
+    {
+      "source": "do-doc-bao",
+      "target": "dam-muc",
+      "label": "Chặn đánh tại",
+      "relation": "intercepts_at",
+      "evidence": [
+        "dam-muc"
+      ]
+    },
+    {
+      "source": "do-doc-long",
+      "target": "khuong-thuong",
+      "label": "Tiến công (nguồn TP.HCM)",
+      "relation": "attacks",
+      "evidence": [
+        "nam-dao-quan"
+      ]
+    },
+    {
+      "source": "dang-tien-dong",
+      "target": "khuong-thuong",
+      "label": "Tiến công (nguồn Chính phủ)",
+      "relation": "attacks",
+      "evidence": [
+        "dong-da-theo-chinhphu"
+      ]
+    },
+    {
+      "source": "sam-nghi-dong",
+      "target": "khuong-thuong",
+      "label": "Giữ đồn",
+      "relation": "defends",
+      "evidence": [
+        "dong-da-theo-chinhphu"
+      ]
+    },
+    {
+      "source": "do-doc-tuyet",
+      "target": "hai-duong",
+      "label": "Tiến quân tới",
+      "relation": "advances_to",
+      "evidence": [
+        "nam-dao-quan"
+      ]
+    },
+    {
+      "source": "do-doc-loc",
+      "target": "bac-giang",
+      "label": "Chặn đường rút tại",
+      "relation": "blocks_at",
+      "evidence": [
+        "nam-dao-quan"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "nghe-an",
+      "label": "Tuyển quân tại",
+      "relation": "recruits_at",
+      "evidence": [
+        "tuyen-quan"
+      ]
+    },
+    {
+      "source": "tay-son",
+      "target": "hau-can",
+      "label": "Bảo đảm",
+      "relation": "organizes",
+      "evidence": [
+        "bao-dam-hau-can"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "thang-long",
+      "label": "Tiến vào",
+      "relation": "enters",
+      "evidence": [
+        "thang-long-giai-phong"
+      ]
+    },
+    {
+      "source": "ngo-thi-nham",
+      "target": "ngoai-giao",
+      "label": "Đảm trách",
+      "relation": "conducts",
+      "evidence": [
+        "ngoai-giao-sau-thang-loi"
+      ]
+    },
+    {
+      "source": "quang-trung",
+      "target": "ngo-thi-nham",
+      "label": "Giao việc ngoại giao",
+      "relation": "entrusts",
+      "evidence": [
+        "ngoai-giao-sau-thang-loi"
+      ]
+    },
+    {
+      "source": "le-hoi",
+      "target": "quang-trung",
+      "label": "Tưởng nhớ",
+      "relation": "commemorates",
+      "evidence": [
+        "le-hoi-dong-da"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "order": 1,
+      "date_label": "Cuối năm 1788",
+      "gregorian": null,
+      "lunar": null,
+      "title": "Quân Thanh tiến vào; Tây Sơn lui về Tam Điệp",
+      "record_ids": [
+        "boi-canh-1788",
+        "ke-sach-tam-diep"
+      ]
+    },
+    {
+      "id": "t2",
+      "order": 2,
+      "date_label": "22.12.1788",
+      "gregorian": "1788-12-22",
+      "lunar": null,
+      "title": "Nguyễn Huệ lên ngôi Quang Trung tại Phú Xuân",
+      "record_ids": [
+        "len-ngoi"
+      ]
+    },
+    {
+      "id": "t3",
+      "order": 3,
+      "date_label": "15.01.1789",
+      "gregorian": "1789-01-15",
+      "lunar": null,
+      "title": "Hội quân ở Tam Điệp – Biện Sơn",
+      "record_ids": [
+        "len-ngoi",
+        "tuyen-quan"
+      ]
+    },
+    {
+      "id": "t4",
+      "order": 4,
+      "date_label": "25.01.1789",
+      "gregorian": "1789-01-25",
+      "lunar": "Giao thừa Tết Kỷ Dậu",
+      "title": "Mở màn cuộc tiến công",
+      "record_ids": [
+        "mo-man"
+      ]
+    },
+    {
+      "id": "t5",
+      "order": 5,
+      "date_label": "28.01.1789",
+      "gregorian": "1789-01-28",
+      "lunar": "Mồng 3 Tết Kỷ Dậu",
+      "title": "Hạ đồn Hà Hồi",
+      "record_ids": [
+        "tran-ha-hoi",
+        "ha-hoi-tam-ly"
+      ]
+    },
+    {
+      "id": "t6",
+      "order": 6,
+      "date_label": "30.01.1789",
+      "gregorian": "1789-01-30",
+      "lunar": "Mồng 5 Tết Kỷ Dậu",
+      "title": "Tiến công Ngọc Hồi; thắng lợi tại Thăng Long",
+      "record_ids": [
+        "tran-ngoc-hoi",
+        "thang-long-giai-phong"
+      ]
+    },
+    {
+      "id": "t7",
+      "order": 7,
+      "date_label": "Sau chiến thắng 1789",
+      "gregorian": null,
+      "lunar": null,
+      "title": "Ngoại giao để giữ hòa hiếu",
+      "record_ids": [
+        "ngoai-giao-sau-thang-loi"
+      ]
+    }
+  ]
+}

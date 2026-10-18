@@ -1,0 +1,192 @@
+{
+  "question": "Ở trong pha phân tích, để trích xuất được các lớp thì bước đầu tiên là gì?",
+  "sources": [
+    {
+      "id": "p092-0",
+      "text": "CHƯƠNG 7: PHƯƠNG PHÁP PHÂN TÍCH HƯỚNG ĐỐI TƯỢNG 7.1 LUỒNG CÔNG VIỆC PHÂN TÍCH Mục đích: có 2 mục đích chính • Để hiểu sâu hơn về các yêu cầu • Mô tả các yêu cầu theo một cách thức nhất định để tạo điều kiện thuận lợi cho việc thiết kế và cài đặt sau đó có khả năng bảo trì được. Ba kiểu lớp chính: • Các lớp thực thể: mô hình thông tin lưu trữ lâu dài, chẳng hạn như: lớp account và lớp investment. Ký hiệu UML của lớp thực thể: Lớp thực thể • Các lớp biên: mô hình những tương tác giữa hệ thống phần mềm với môi trường. Lớp biên nhìn chung gắn liền với đầu vào hoặc đầu ra hoặc giao tiếp với các tác nhân. Ví dụ: lớp Investments Report và lớp Mortgages Report. Ký hiệu UML của lớp biên: Lớp biên • Các lớp điều khiển: mô hình những tính toán và những thuật toán phức tạp. Ví dụ: lớp Estimate Funds for Week. Ký hiệu UML của lớp điều khiển: Lớp điều khiển 7.2 VIỆC TRÍCH RÚT CÁC LỚP THỰC THỂ Thực hiện theo ba bước sau một cách lặp và tăng dần: • Việc mô hình hóa chức năng (hay còn gọi là mô hình hóa Use-Case): Xác định các kết quả khác nhau được đưa ra bởi hệ thống phần mềm. Biều diễn các thông tin đó dưới dạng các kịch bản của tất cả các Use-Case (mỗi kịch bản là một thể hiện của Use Case). • Mô hình hóa lớp: Xác định các lớp thực thể và các thuộc tính của các lớp. Sau đó, xác định các mối quan hệ qua lại và các tương tác giữa các lớp. Biểu diễn thông tin này bằng biểu đồ lớp. • Mô hình hóa động: Xác định các hành động được thực hiện bởi hoặc đối với mỗi lớp thực thể hoặc các lớp con. Biểu diễn thông tin này dưới dạng các biều đồ trạng thái.",
+      "pdf_page": 92,
+      "printed_page": 91,
+      "chapter": 7,
+      "chapter_title": "Phương pháp phân tích hướng đối tượng",
+      "section": "7.1 LUỒNG CÔNG VIỆC PHÂN TÍCH",
+      "concepts": [
+        "analysis",
+        "maintenance",
+        "iterative",
+        "actor",
+        "uml",
+        "entity-class",
+        "class-types",
+        "boundary-class",
+        "control-class"
+      ],
+      "context_chunk_ids": [
+        "p092-0",
+        "p092-1"
+      ],
+      "citation": 1,
+      "score": 0.7484,
+      "via": [
+        "Phân tích hướng đối tượng",
+        "Lớp thực thể",
+        "Các kiểu lớp"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=92"
+    },
+    {
+      "id": "p095-1",
+      "text": "Máy bấm giờ bắt đầu. Người dùng B bước ra khỏi thang máy. 14. Cửa thang máy đóng lại sau một thời gian quy định. 15. Thang máy đi tiếp tục xuống tầng 1 theo yêu cầu của người dùng A. Hình 7.3: Kịch bản ngoại lệ của bài toán thang máy 7.5 MÔ HÌNH HÓA LỚP THỰC THỂ Trong bước này, các lớp và các thuộc tính được trích rút và được biểu diễn bằng biểu đồ UML. Các thuộc tính của mỗi lớp thực thể được xác định ở bước này nhưng các phương thức thì không. Các phươn thức sẽ được gán cho các lớp ở pha thiết kế hướng đối tượng. Có 3 cách thức để trích rút các lớp và các thuộc tính: • Một là, suy luận ra các lớp từ các Use-Case và các kịch bản của các Use-Case. Phương pháp này có nhược điểm là thường có nhiều kịch bản do đó có quá nhiều lớp ứng cử để tìm ra lớp thực thể. • Hai là, sử dụng CRC Cards (nếu chúng ta có tri thức về miền nghiệp vụ). • Ba là, sử dụng phương pháp trích rút danh từ. 7.5.1 Trích rút danh từ Đối với những người phát triển mà chưa có kiến thức chuyên môn thành thạo về nghiệp vụ của hệ thống xây dựng thì cách tốt nhất để trích rút ra các lớp ứng cử là sử dụng phương pháp trích rút danh từ với 2 giai đoạn như sau: • Giai đoạn 1: Định nghĩa vấn đề một cách ngắn gọn: Miêu tả hệ thống phần mềm xây dựng một cách ngắn gọn, súc tích dưới dạng một đoạn văn duy nhất. Trong bài toán thang máy ta có đoạn văn như sau: “ Các nút trong thang máy và ở mỗi tầng điều khiển sự di chuyển của n thang máy trong tòa nhà m tầng. Các nút sáng lên khi có người bấm nút đó để yêu cầu thang máy di chuyển tới một tầng nào đó; nút đó sẽ trở lại trạng thái bình thường khi yêu cầu đã được",
+      "pdf_page": 95,
+      "printed_page": 94,
+      "chapter": 7,
+      "chapter_title": "Phương pháp phân tích hướng đối tượng",
+      "section": "7.5 MÔ HÌNH HÓA LỚP THỰC THỂ",
+      "concepts": [
+        "design",
+        "use-case",
+        "scenario",
+        "uml",
+        "entity-class",
+        "crc"
+      ],
+      "context_chunk_ids": [
+        "p095-1",
+        "p095-2"
+      ],
+      "citation": 2,
+      "score": 0.6431,
+      "via": [
+        "Lớp thực thể",
+        "Thẻ CRC",
+        "UML"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=95"
+    },
+    {
+      "id": "p099-5",
+      "text": "hóa một sự kiện của kịch bản khác, đó là kịch bản người dùng ra khỏi thang máy và không còn nút nào sáng. 7.6 KIỂM THỬ TRONG PHÂN TÍCH HƯỚNG ĐỐI TƯỢNG Sau khi 3 mô hình của tiến trình phân tích hướng đối tượng được xem là hoàn thành thì bước tiếp theo là kiểm tra lại pha phân tích hướng đối tượng. CRC Cards là kỹ thuật kiểm thử tốt.",
+      "pdf_page": 99,
+      "printed_page": 98,
+      "chapter": 7,
+      "chapter_title": "Phương pháp phân tích hướng đối tượng",
+      "section": "7.6 KIỂM THỬ TRONG PHÂN TÍCH HƯỚNG ĐỐI TƯỢNG",
+      "concepts": [
+        "analysis",
+        "testing",
+        "scenario",
+        "crc"
+      ],
+      "context_chunk_ids": [
+        "p099-5"
+      ],
+      "citation": 3,
+      "score": 0.5866,
+      "via": [
+        "Phân tích hướng đối tượng",
+        "Thẻ CRC",
+        "Kịch bản"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=99"
+    },
+    {
+      "id": "p134-0",
+      "text": "8.5 CASE STUDY CHO PHA THIẾT KẾ Mục này tiếp tục tiến hành thiết kế hệ thống cho ứng dụng quản lí đặt phòng khách sạn đã được trình bày trong case study của các pha lấy yêu cầu và pha phân tích. Nội dung bao gồm: • Thiết kế lớp thực thể • Thiết kế cơ sở dữ liệu • Thiết kế chi tiết các modul. 8.5.1 Thiết kế lớp thực thể Sử dụng biểu đồ lớp thực thể từ pha phân tích, các bước tiến hành như sau: • Bổ sung kiểu dữ liệu cho các thuộc tính đã có",
+      "pdf_page": 134,
+      "printed_page": 133,
+      "chapter": 8,
+      "chapter_title": "Pha thiết kế",
+      "section": "8.5 CASE STUDY CHO PHA THIẾT KẾ",
+      "concepts": [
+        "design",
+        "entity-class",
+        "class-diagram",
+        "detailed-design",
+        "database"
+      ],
+      "context_chunk_ids": [
+        "p134-0"
+      ],
+      "citation": 4,
+      "score": 0.525,
+      "via": [
+        "Lớp thực thể"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=134"
+    },
+    {
+      "id": "p110-0",
+      "text": "• Đối với các lớp thống kê, do chúng phải dùng lại một số thuộc tính của lớp thực thể tương ứng nên có quan hệ kế thừa từ các lớp thực thể tương ứng ấy: HotelStat kế thừa từ Hotel; RoomStat kế thừa từ Room; ServiceStat kế thừa từ Service; ClientStat kế thừ từ Client. • Riêng lớp IncomeStat không dùng lại thuộc tính của lớp nào nên không có quan hệ kế thừa với lớp nào. Nó chỉ có quan lệ với lớp Bill vì có thể liên quan đến chi phí trong các hóa đơn. Như vậy, ta thu được sơ đồ các lớp thực thể của hệ thống như Hình 7.10. 7.8.3 Phân tích chi tiết từng modul Nội dung phần này sẽ phân tích chi tiết hoạt động từng modul với hai bước: phân tích tĩnh và phân tích động. Phân tích tĩnh là phân tích các lớp biên và lớp đối tượng cần thiết trong chức năng (biểu đồ lớp). Phân tích động là phân tích các bước hoạt động của chức năng (biểu đồ tuần tự/cộng tác). Các chức năng được phân tích ở đây là: sửa thông tin phòng, đặt phòng, thống kê phòng theo doanh thu. a. Chức năng sửa thông tin phòng Phân tích chi tiết chức năng sửa thông tin phòng diễn ra như sau: • Vào hệ thống -> giao diện login hiện lên -> đề xuất lớp LoginView, có 2 ô nhập username, password và nút Login. • Nhập username/password -> hệ thống phải kiểm tra thông tin đăng nhập -> cần chức năng checkLongin() -> chức năng này là hành động của đối tượng User. • Login thành công, hệ thống hiện giao diện chính của quản lí -> đề xuất lớp ManagerHomeView, có ít nhất nút chọn vào quản lí thông tin phòng. • Click vào nút quản lí thông tin phòng -> giao diện quản lí phòng hiện lên -> đề xuất lớp RoomManageView, có ít nhất nút sửa phòng. • Click nút sửa phòng -> giao diện tìm phòng để sửa hiện lên -> đề xuất lớp SearchRoomView, có ô nhập tên phòng để tìm, nút tìm, và bảng danh sách kết quả. • Nhập từ khóa, click nút tìm -> hệ thống",
+      "pdf_page": 110,
+      "printed_page": 109,
+      "chapter": 7,
+      "chapter_title": "Phương pháp phân tích hướng đối tượng",
+      "section": "7.8.3 Phân tích chi tiết từng modul",
+      "concepts": [
+        "entity-class",
+        "boundary-class",
+        "class-diagram",
+        "sequence-diagram",
+        "inheritance"
+      ],
+      "context_chunk_ids": [
+        "p110-0",
+        "p110-1"
+      ],
+      "citation": 5,
+      "score": 0.4883,
+      "via": [
+        "Lớp thực thể",
+        "Lớp biên"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=110"
+    },
+    {
+      "id": "p131-0",
+      "text": "Hình 8.6: mở rộng luồng phân tích dữ liệu • Tiếp tục thực hiện cho đến khi mỗi mô đun có độ dính kết cao o Điều chỉnh kết nối (coupling) nếu cần thiết 8.3.2 Thiết kế dòng dữ liệu • Nguyên lý cơ bản o Cấu trúc của một phần mềm phải phù hợp với cấu trúc của dữ liệu của nó • Có ba phương pháp rất giống nhau o Michael Jackson [1975], Warnier [1976], Orr [1981] o Thiết kế hướng dữ liệu o Chưa từng phổ biến như thiết kế hướng hành động o Với sự ra đời của OOD, thiết kế hướng dữ liệu đã bị lỗi thời 8.4 THIẾT KẾ HƯỚNG ĐỐI TƯỢNG • Mục đích o Thiết kế phần mềm dưới dạng các lớp được trích rút trong suốt phân tích hướng đối tượng (OOA) • Nếu chúng ta đang sử dụng một ngôn ngữ mà không có tính kế thừa như C, Ada83… o Sử dụng thiết kế kiểu dữ liệu trừu tượng",
+      "pdf_page": 131,
+      "printed_page": 130,
+      "chapter": 8,
+      "chapter_title": "Pha thiết kế",
+      "section": "8.3.2 Thiết kế dòng dữ liệu",
+      "concepts": [
+        "analysis",
+        "design",
+        "data-flow",
+        "coupling",
+        "inheritance"
+      ],
+      "context_chunk_ids": [
+        "p131-0"
+      ],
+      "citation": 6,
+      "score": 0.4686,
+      "via": [
+        "Phân tích hướng đối tượng"
+      ],
+      "graph_expanded": false,
+      "url": "/api/document#page=131"
+    }
+  ],
+  "concepts": [
+    "analysis",
+    "entity-class"
+  ],
+  "backend": "embeddinggemma + BM25 + TF-IDF",
+  "warnings": [],
+  "graph_added": 0,
+  "answer": "Trong pha phân tích, để trích xuất các lớp thực thể, bước đầu tiên là mô hình hóa chức năng (mô hình hóa Use-Case), nhằm xác định các kết quả khác nhau được đưa ra bởi hệ thống phần mềm. [1]\n\nSau đó, bước tiếp theo là mô hình hóa lớp, trong đó xác định các lớp thực thể và các thuộc tính của các lớp, đồng thời xác định các mối quan hệ qua lại và các tương tác giữa các lớp, rồi biểu diễn thông tin này bằng biểu đồ lớp. [1]",
+  "answer_mode": "generated",
+  "generation_warning": null,
+  "mode": "graph",
+  "model": "qwen3:1.7b",
+  "retrieval_ms": 1177,
+  "elapsed_ms": 11866,
+  "context_citations": [
+    1
+  ]
+}

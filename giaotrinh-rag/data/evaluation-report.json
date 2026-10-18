@@ -1,0 +1,554 @@
+{
+  "note": "Bộ kiểm tra nhỏ do dự án biên soạn; trang bằng chứng chưa phải nhãn đầy đủ. Không đo chất lượng câu trả lời LLM.",
+  "dense_enabled": true,
+  "cases": 15,
+  "results": {
+    "baseline": {
+      "hit_at_5": 1.0,
+      "reference_page_coverage": 0.958,
+      "correct_abstention": 1.0,
+      "mean_latency_ms": 31,
+      "details": [
+        {
+          "question": "SQA là gì và có trách nhiệm gì?",
+          "evidence_pages": [
+            18,
+            42
+          ],
+          "retrieved_pages": [
+            18,
+            42,
+            43,
+            19,
+            228
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 38,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Xác minh và thẩm định phần mềm khác nhau như thế nào?",
+          "evidence_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            43,
+            51,
+            178,
+            172,
+            17
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 29,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Vì sao kiểm thử cần được thực hiện trong mọi pha phát triển phần mềm?",
+          "evidence_pages": [
+            17,
+            18
+          ],
+          "retrieved_pages": [
+            17,
+            35,
+            232,
+            166,
+            18
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Mô hình xoắn ốc được trình bày như thế nào?",
+          "evidence_pages": [
+            37,
+            38
+          ],
+          "retrieved_pages": [
+            37,
+            38
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Mô hình xây sửa có những đặc điểm gì?",
+          "evidence_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Ba kiểu lớp chính trong phân tích hướng đối tượng là gì?",
+          "evidence_pages": [
+            92
+          ],
+          "retrieved_pages": [
+            92,
+            131,
+            14,
+            93,
+            99
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 33,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Use case mô tả tương tác với tác nhân như thế nào?",
+          "evidence_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            70,
+            71,
+            69,
+            84
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 29,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Kịch bản và use case có quan hệ gì?",
+          "evidence_pages": [
+            92,
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            103,
+            92,
+            70,
+            87
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Thiết kế kiến trúc và thiết kế chi tiết có đầu vào và đầu ra gì?",
+          "evidence_pages": [
+            120
+          ],
+          "retrieved_pages": [
+            120,
+            128,
+            14,
+            19,
+            121
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 37,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Rà soát lướt qua được tổ chức như thế nào?",
+          "evidence_pages": [
+            43,
+            44
+          ],
+          "retrieved_pages": [
+            43,
+            46,
+            172
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 0.5,
+          "correct_abstention": null,
+          "elapsed_ms": 32,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "COCOMO được dùng để ước lượng như thế nào?",
+          "evidence_pages": [
+            57,
+            58,
+            60,
+            61
+          ],
+          "retrieved_pages": [
+            58,
+            60,
+            61,
+            65,
+            57
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 33,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Phỏng vấn có vai trò gì trong xác định yêu cầu?",
+          "evidence_pages": [
+            68,
+            69
+          ],
+          "retrieved_pages": [
+            68,
+            69,
+            67,
+            72,
+            18
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 35,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Thời tiết Hà Nội ngày mai thế nào?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 29,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Giá bitcoin hôm nay bao nhiêu?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 27,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Nấu phở như thế nào?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 26,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        }
+      ]
+    },
+    "graph": {
+      "hit_at_5": 1.0,
+      "reference_page_coverage": 0.958,
+      "correct_abstention": 1.0,
+      "mean_latency_ms": 31,
+      "details": [
+        {
+          "question": "SQA là gì và có trách nhiệm gì?",
+          "evidence_pages": [
+            18,
+            42
+          ],
+          "retrieved_pages": [
+            18,
+            42,
+            43,
+            19,
+            228
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 28,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Xác minh và thẩm định phần mềm khác nhau như thế nào?",
+          "evidence_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            43,
+            178,
+            51,
+            172,
+            50
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Vì sao kiểm thử cần được thực hiện trong mọi pha phát triển phần mềm?",
+          "evidence_pages": [
+            17,
+            18
+          ],
+          "retrieved_pages": [
+            17,
+            35,
+            42,
+            47,
+            232
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 0.5,
+          "correct_abstention": null,
+          "elapsed_ms": 38,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Mô hình xoắn ốc được trình bày như thế nào?",
+          "evidence_pages": [
+            37,
+            38
+          ],
+          "retrieved_pages": [
+            37,
+            38,
+            26,
+            30,
+            40
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 30,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Mô hình xây sửa có những đặc điểm gì?",
+          "evidence_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            40,
+            38,
+            74,
+            11
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 27,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Ba kiểu lớp chính trong phân tích hướng đối tượng là gì?",
+          "evidence_pages": [
+            92
+          ],
+          "retrieved_pages": [
+            92,
+            131,
+            14,
+            93,
+            99
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 33,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Use case mô tả tương tác với tác nhân như thế nào?",
+          "evidence_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            70,
+            71,
+            69,
+            84
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 33,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Kịch bản và use case có quan hệ gì?",
+          "evidence_pages": [
+            92,
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            103,
+            92,
+            95,
+            70
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 31,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Thiết kế kiến trúc và thiết kế chi tiết có đầu vào và đầu ra gì?",
+          "evidence_pages": [
+            120
+          ],
+          "retrieved_pages": [
+            120,
+            14,
+            128,
+            19,
+            121
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 35,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Rà soát lướt qua được tổ chức như thế nào?",
+          "evidence_pages": [
+            43,
+            44
+          ],
+          "retrieved_pages": [
+            43,
+            46,
+            172,
+            44,
+            164
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 33,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "COCOMO được dùng để ước lượng như thế nào?",
+          "evidence_pages": [
+            57,
+            58,
+            60,
+            61
+          ],
+          "retrieved_pages": [
+            58,
+            60,
+            61,
+            65,
+            57
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 30,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Phỏng vấn có vai trò gì trong xác định yêu cầu?",
+          "evidence_pages": [
+            68,
+            69
+          ],
+          "retrieved_pages": [
+            68,
+            69,
+            67,
+            72,
+            18
+          ],
+          "hit_at_5": true,
+          "reference_page_coverage": 1.0,
+          "correct_abstention": null,
+          "elapsed_ms": 34,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Thời tiết Hà Nội ngày mai thế nào?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 29,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Giá bitcoin hôm nay bao nhiêu?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 27,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        },
+        {
+          "question": "Nấu phở như thế nào?",
+          "evidence_pages": [],
+          "retrieved_pages": [],
+          "hit_at_5": null,
+          "reference_page_coverage": null,
+          "correct_abstention": true,
+          "elapsed_ms": 27,
+          "backend": "embeddinggemma + BM25 + TF-IDF",
+          "warnings": []
+        }
+      ]
+    }
+  }
+}

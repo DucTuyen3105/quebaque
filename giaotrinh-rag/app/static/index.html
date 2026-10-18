@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#142b37">
+  <meta name="description" content="Tra cứu giáo trình Nhập môn Công nghệ phần mềm, kết nối kiến thức và kiểm chứng từng trang nguồn.">
+  <title>Giáo trình · Không gian tra cứu</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23142b37'/%3E%3Ctext x='8' y='29' font-family='Georgia' font-size='29' fill='%23e8c888'%3Eg%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></symbol>
+  <symbol id="i-graph" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="m11 7-5 9m7-9 5 9M8 18h8"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1v15"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.7 6.3L21 12l-6.3 2.7L12 21l-2.7-6.3L3 12l6.3-2.7Z"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6m0-6L10 14m0-10H4v16h16v-6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+</svg>
+<button id="sidebar-backdrop" class="sidebar-backdrop" aria-label="Đóng menu" hidden></button>
+<aside class="sidebar" id="sidebar">
+  <a href="/" class="brand" aria-label="Giáo trình, trang chủ"><span class="brand-mark">g<span>·</span></span><span>giáo trình<span class="brand-caption">KẾT NỐI ĐỂ HIỂU</span></span></a>
+  <div class="workspace-label">KHÔNG GIAN HỌC TẬP</div>
+  <nav class="navigation" aria-label="Điều hướng chính">
+    <button class="nav-item active" data-tab="search" aria-current="page"><svg><use href="#i-search"/></svg>Tra cứu kiến thức<span class="nav-dot"></span></button>
+    <button class="nav-item" data-tab="graph"><svg><use href="#i-graph"/></svg>Bản đồ tri thức</button>
+    <button class="nav-item" data-tab="document"><svg><use href="#i-book"/></svg>Giáo trình gốc</button>
+  </nav>
+  <div class="sidebar-rule"></div>
+  <div class="workspace-label chapter-label">NỘI DUNG GIÁO TRÌNH <span id="chapter-count">—</span></div>
+  <div id="chapter-nav" class="chapter-nav"><div class="sidebar-loading">Đang đọc giáo trình…</div></div>
+  <div class="sidebar-bottom"><div class="local-indicator"><span class="status-dot" id="model-dot"></span><span id="model-label">Đang kiểm tra Ollama</span></div><div class="privacy-note">Dữ liệu và mô hình chạy trên máy bạn.</div><a href="/docs" target="_blank" rel="noopener">Tài liệu API <svg><use href="#i-external"/></svg></a></div>
+</aside>
+<main class="main">
+  <header class="topbar"><div class="breadcrumb"><button id="menu-button" class="icon-button mobile-only" aria-label="Mở menu" aria-expanded="false"><svg><use href="#i-menu"/></svg></button><span>Thư viện của bạn</span><span class="slash">/</span><strong>Nhập môn CNPM</strong></div><span class="edition"><span></span> PHIÊN BẢN HỌC TẬP</span></header>
+  <div class="page-content">
+    <section id="search-view" class="view">
+      <div class="heading-row"><div><div class="eyebrow"><span class="tiny-line"></span> TRI THỨC CÓ NGUỒN GỐC</div><h1>Hiểu bài sâu hơn.<br><em>Tìm đúng nguồn.</em></h1><p class="intro">Hỏi giáo trình, khám phá những kết nối và trở lại<br class="desktop-break"> đúng trang kiến thức bạn cần.</p></div><div class="book-stamp"><svg><use href="#i-book"/></svg><span>NHẬP MÔN<br><strong>CÔNG NGHỆ<br>PHẦN MỀM</strong></span><div class="stamp-line"></div><small>TRẦN ĐÌNH QUẾ<br>NGUYỄN MẠNH HÙNG</small></div></div>
+      <div class="stats-strip" id="stats-strip"><div><strong id="stat-pages">—</strong><span>trang giáo trình</span></div><div><strong id="stat-chapters">—</strong><span>chương kiến thức</span></div><div><strong id="stat-concepts">—</strong><span>khái niệm kết nối</span></div><div class="stat-method"><svg><use href="#i-graph"/></svg><span>RAG + Knowledge Graph</span></div></div>
+      <div class="search-layout">
+        <div class="search-column">
+          <form id="search-form" class="query-card">
+            <div class="query-top"><div class="segmented" role="group" aria-label="Phương pháp tra cứu"><button type="button" class="selected" data-mode="graph" aria-pressed="true"><svg><use href="#i-graph"/></svg>Có đồ thị tri thức</button><button type="button" data-mode="baseline" aria-pressed="false">RAG cơ bản</button></div><span class="method-info" id="mode-hint">Kết nối nhiều đoạn nguồn</span></div>
+            <label for="question" class="question-label">Hôm nay bạn muốn hiểu điều gì?</label>
+            <textarea id="question" name="question" minlength="3" maxlength="1200" rows="3" required placeholder="Ví dụ: Xác minh và thẩm định phần mềm khác nhau như thế nào?"></textarea>
+            <div class="query-controls"><label class="chapter-select"><svg><use href="#i-book"/></svg><select id="chapter-select" aria-label="Giới hạn chương"><option value="">Toàn bộ giáo trình</option></select></label><button class="submit-button" id="submit-button" type="submit">Tra cứu <svg><use href="#i-arrow"/></svg></button></div>
+            <div class="query-bottom"><label class="toggle-label"><input type="checkbox" id="use-llm" checked><span class="toggle"></span>Tổng hợp bằng Ollama</label><span><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span></div>
+          </form>
+          <div id="app-error" class="notice error" role="alert" hidden></div>
+          <div id="loading" class="loading-card" role="status" hidden><span class="spinner"></span><div><strong id="loading-title">Đang tìm trong giáo trình…</strong><p id="loading-detail">Đối chiếu nội dung và các khái niệm liên quan.</p></div><button id="cancel-button" type="button">Hủy</button></div>
+          <section id="suggestions" class="suggestions"><div class="section-title"><span>GỢI Ý ĐỂ BẮT ĐẦU</span><span>Chọn một câu hỏi <svg><use href="#i-arrow"/></svg></span></div><div class="suggestion-grid">
+            <button class="suggestion" data-question="Xác minh và thẩm định phần mềm khác nhau như thế nào?"><span class="suggestion-type">SO SÁNH</span><strong>Xác minh và thẩm định<br>khác nhau thế nào?</strong><span class="suggestion-footer">Kiểm thử phần mềm <svg><use href="#i-arrow"/></svg></span></button>
+            <button class="suggestion" data-question="Use case được sử dụng như thế nào trong xác định yêu cầu và phân tích hướng đối tượng?"><span class="suggestion-type">KẾT NỐI KIẾN THỨC</span><strong>Use case nối yêu cầu<br>với phân tích ra sao?</strong><span class="suggestion-footer">Yêu cầu & phân tích <svg><use href="#i-arrow"/></svg></span></button>
+            <button class="suggestion" data-question="Mô hình xoắn ốc được trình bày như thế nào trong giáo trình?"><span class="suggestion-type">TÌM HIỂU KHÁI NIỆM</span><strong>Mô hình xoắn ốc<br>hoạt động như thế nào?</strong><span class="suggestion-footer">Vòng đời phần mềm <svg><use href="#i-arrow"/></svg></span></button>
+            <button class="suggestion" data-question="Vì sao kiểm thử cần được thực hiện trong mọi pha phát triển phần mềm?"><span class="suggestion-type">GIẢI THÍCH</span><strong>Kiểm thử diễn ra<br>ở những pha nào?</strong><span class="suggestion-footer">Tiến trình phần mềm <svg><use href="#i-arrow"/></svg></span></button>
+          </div></section>
+          <section id="results" class="results" aria-live="polite" hidden></section>
+        </div>
+        <aside class="knowledge-panel"><div class="panel-header"><span class="panel-icon"><svg><use href="#i-graph"/></svg></span><div><h2>Kiến thức được kết nối</h2><p>Một khái niệm, nhiều góc nhìn.</p></div></div><div id="mini-graph" class="mini-graph" aria-label="Đồ thị khái niệm trong giáo trình"></div><div class="graph-key"><span><i class="key-node"></i>Khái niệm</span><span><i class="key-edge"></i>Cùng xuất hiện</span></div><p class="panel-description">Chọn một khái niệm để khám phá các đoạn giáo trình có liên quan.</p><button class="text-link" id="explore-graph">Mở bản đồ tri thức <svg><use href="#i-arrow"/></svg></button><div class="source-note"><svg><use href="#i-check"/></svg><div><strong>Luôn có nguồn để kiểm chứng</strong><p>Mỗi kết quả dẫn về chương và trang gốc trong giáo trình.</p></div></div></aside>
+      </div>
+    </section>
+    <section id="graph-view" class="view" hidden><div class="eyebrow"><span class="tiny-line"></span> KHÁM PHÁ MỐI LIÊN HỆ</div><h1>Bản đồ <em>tri thức.</em></h1><p class="intro">Đi từ một khái niệm đến những đoạn kiến thức liên quan.</p><div class="graph-toolbar"><label for="concept-select">Khái niệm trung tâm</label><select id="concept-select"><option value="">Tổng quan giáo trình</option></select><button id="reset-graph" class="secondary-button">Đặt lại</button></div><div class="graph-workspace"><div class="graph-canvas" id="full-graph"></div><aside id="graph-detail" class="graph-detail"><span class="eyebrow">BẮT ĐẦU KHÁM PHÁ</span><h2>Chọn một nút<br>trên bản đồ.</h2><p>Bạn sẽ thấy các trang nguồn và những khái niệm cùng xuất hiện.</p></aside></div><p class="graph-disclaimer">Nét đứt: cùng xuất hiện trong một đoạn, không mặc định là quan hệ nguyên nhân hay phân loại. Nét liền màu xanh: quan hệ có kiểu, được đối chiếu với cụm từ bằng chứng trong giáo trình.</p></section>
+    <section id="document-view" class="view" hidden><div class="eyebrow"><span class="tiny-line"></span> TRỞ VỀ NGUỒN GỐC</div><h1>Giáo trình <em>của bạn.</em></h1><p class="intro">Nhập môn Công nghệ phần mềm · Trần Đình Quế & Nguyễn Mạnh Hùng</p><div class="document-toolbar"><label for="pdf-page">Trang PDF</label><input type="number" id="pdf-page" value="1" min="1" max="276"><button id="go-page" class="secondary-button">Đến trang</button><a href="/api/document" target="_blank" rel="noopener" class="text-link">Mở riêng <svg><use href="#i-external"/></svg></a></div><p class="page-note">Trang PDF là vị trí trong tệp. Số trang in trong sách có thể khác; kết quả tra cứu hiển thị cả hai.</p><iframe id="document-frame" title="Giáo trình Nhập môn Công nghệ phần mềm" class="document-frame"></iframe></section>
+    <footer class="page-footer"><span>Học từ tài liệu. Hiểu qua kết nối.</span><span>NHẬP MÔN CÔNG NGHỆ PHẦN MỀM <span class="footer-dot">·</span> <a href="/docs" target="_blank" rel="noopener">FastAPI</a></span></footer>
+  </div>
+</main>
+<dialog id="source-dialog"><div class="dialog-header"><div><span class="eyebrow">ĐỐI CHIẾU NGUỒN</span><h2 id="source-title">Trang giáo trình</h2></div><button id="close-source" class="icon-button" aria-label="Đóng tài liệu"><svg><use href="#i-close"/></svg></button></div><iframe id="source-frame" title="Trang nguồn giáo trình"></iframe><a id="source-external" target="_blank" rel="noopener">Mở trang này trong thẻ mới ↗</a></dialog>
+</body>
+</html>

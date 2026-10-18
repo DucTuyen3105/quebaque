@@ -1,0 +1,252 @@
+{
+  "sources": [
+    {
+      "id": "tran-ha-hoi",
+      "category": "dien-bien",
+      "title": "Đêm mồng 3 Tết: hạ đồn Hà Hồi",
+      "source_id": "chinhphu-2013",
+      "text": "Đêm mồng 3 Tết Kỷ Dậu, ngày 28/01/1789, quân Tây Sơn bao vây Hà Hồi, buộc đồn đầu hàng trước trận Ngọc Hồi.",
+      "entities": [
+        "tay-son",
+        "ha-hoi",
+        "ngoc-hoi",
+        "bat-ngo"
+      ],
+      "keywords": [
+        "Hạ Hồi",
+        "đầu hàng",
+        "mồng ba",
+        "thời gian",
+        "trước sau"
+      ],
+      "citation": 1,
+      "score": 1.2316,
+      "publisher": "Báo Điện tử Chính phủ",
+      "source_title": "Chiến thắng hiển hách trong lịch sử chống ngoại xâm",
+      "source_url": "https://baochinhphu.vn/chien-thang-hien-hach-trong-lich-su-chong-ngoai-xam-102138325.htm",
+      "source_note": "Nguồn gọi chỉ huy hướng Đống Đa là Đặng Tiến Đông và nêu quân số Thanh 20 vạn; giữ nguyên cách ghi khi đối chiếu.",
+      "category_title": "Diễn biến chiến dịch",
+      "event_dates": [
+        {
+          "title": "Hạ đồn Hà Hồi",
+          "gregorian": "1789-01-28",
+          "lunar": "Mồng 3 Tết Kỷ Dậu"
+        }
+      ],
+      "local_url": "/api/records/tran-ha-hoi",
+      "via": [
+        "Hà Hồi",
+        "Ngọc Hồi",
+        "Quân Tây Sơn"
+      ],
+      "graph_expanded": false
+    },
+    {
+      "id": "tran-ngoc-hoi",
+      "category": "dien-bien",
+      "title": "Mồng 5 Tết: tiến công Ngọc Hồi",
+      "source_id": "chinhphu-2013",
+      "text": "Sáng mồng 5 Tết Kỷ Dậu, ngày 30/01/1789, Quang Trung chỉ huy quân Tây Sơn dùng tượng binh tiến công Ngọc Hồi, phía nam Thăng Long.",
+      "entities": [
+        "quang-trung",
+        "ngoc-hoi",
+        "tuong-binh",
+        "thang-long",
+        "tay-son",
+        "chien-dich-1789"
+      ],
+      "keywords": [
+        "mồng năm",
+        "ngày nào",
+        "chỉ huy",
+        "diễn biến"
+      ],
+      "citation": 2,
+      "score": 0.7831,
+      "publisher": "Báo Điện tử Chính phủ",
+      "source_title": "Chiến thắng hiển hách trong lịch sử chống ngoại xâm",
+      "source_url": "https://baochinhphu.vn/chien-thang-hien-hach-trong-lich-su-chong-ngoai-xam-102138325.htm",
+      "source_note": "Nguồn gọi chỉ huy hướng Đống Đa là Đặng Tiến Đông và nêu quân số Thanh 20 vạn; giữ nguyên cách ghi khi đối chiếu.",
+      "category_title": "Diễn biến chiến dịch",
+      "event_dates": [
+        {
+          "title": "Tiến công Ngọc Hồi; thắng lợi tại Thăng Long",
+          "gregorian": "1789-01-30",
+          "lunar": "Mồng 5 Tết Kỷ Dậu"
+        }
+      ],
+      "local_url": "/api/records/tran-ngoc-hoi",
+      "via": [
+        "Ngọc Hồi",
+        "Quân Tây Sơn",
+        "Quang Trung"
+      ],
+      "graph_expanded": false
+    },
+    {
+      "id": "ha-hoi-tam-ly",
+      "category": "nghe-thuat",
+      "title": "Gây sức ép tinh thần ở Hà Hồi",
+      "source_id": "bthcm-lucluong",
+      "text": "Tại Hà Hồi, quân Tây Sơn vây kín đồn và gọi hàng, kết hợp tiếng hưởng ứng của quân sĩ để gây sức ép tinh thần. Theo bài viết, cách đánh kết hợp nghi binh với địch vận giúp buộc quân giữ đồn đầu hàng.",
+      "entities": [
+        "ha-hoi",
+        "tay-son",
+        "bat-ngo",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "vì sao đầu hàng",
+        "nghi binh",
+        "tâm lý",
+        "địch vận"
+      ],
+      "citation": 3,
+      "score": 0.754,
+      "publisher": "Bảo tàng Lịch sử TP.HCM",
+      "source_title": "Tổ chức lực lượng tại Ngọc Hồi – Đống Đa",
+      "source_url": "https://www.baotanglichsutphcm.com.vn/ban-tin/nghe-thuat-to-chuc-luc-luong-trong-tran-quyet-chien-chien-luoc-ngoc-hoi-dong-da-nam-1789",
+      "source_note": "Nguồn dùng tên Đô đốc Long cho hướng Khương Thượng và ghi 29 vạn quân Thanh; không mặc định đồng nhất với tên gọi ở nguồn khác.",
+      "category_title": "Tổ chức & nghệ thuật quân sự",
+      "event_dates": [
+        {
+          "title": "Hạ đồn Hà Hồi",
+          "gregorian": "1789-01-28",
+          "lunar": "Mồng 3 Tết Kỷ Dậu"
+        }
+      ],
+      "local_url": "/api/records/ha-hoi-tam-ly",
+      "via": [
+        "Hà Hồi",
+        "Quân Tây Sơn"
+      ],
+      "graph_expanded": false
+    },
+    {
+      "id": "thang-long-giai-phong",
+      "category": "di-san",
+      "title": "Tiến vào Thăng Long và kết quả chiến dịch",
+      "source_id": "btlsqg-2014",
+      "text": "Trưa 30/01/1789, Quang Trung cùng đại quân tiến vào Thăng Long. Chiến thắng đánh bại cuộc xâm lược của quân Thanh và giải phóng kinh thành.",
+      "entities": [
+        "quang-trung",
+        "tay-son",
+        "thang-long",
+        "quan-thanh",
+        "chien-dich-1789"
+      ],
+      "keywords": [
+        "kết quả",
+        "ý nghĩa",
+        "giải phóng",
+        "độc lập"
+      ],
+      "citation": 4,
+      "score": 0.5168,
+      "publisher": "Bảo tàng Lịch sử Quốc gia",
+      "source_title": "Quang Trung – Nguyễn Huệ đại phá quân Thanh",
+      "source_url": "https://baotanglichsu.vn/VI/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html",
+      "source_note": "Bài tổng hợp kỷ niệm chiến thắng; các ghi chép trong dự án là diễn giải có nguồn.",
+      "category_title": "Ý nghĩa & di sản",
+      "event_dates": [
+        {
+          "title": "Tiến công Ngọc Hồi; thắng lợi tại Thăng Long",
+          "gregorian": "1789-01-30",
+          "lunar": "Mồng 5 Tết Kỷ Dậu"
+        }
+      ],
+      "local_url": "/api/records/thang-long-giai-phong",
+      "via": [
+        "Quân Tây Sơn",
+        "Quang Trung"
+      ],
+      "graph_expanded": false
+    },
+    {
+      "id": "le-hoi-dong-da",
+      "category": "di-san",
+      "title": "Tưởng niệm chiến thắng vào mồng 5 Tết",
+      "source_id": "chinhphu-2013",
+      "text": "Mồng 5 Tết hằng năm, lễ hội Ngọc Hồi – Đống Đa tưởng nhớ Quang Trung và quân Tây Sơn tại Công viên văn hóa Đống Đa, Hà Nội.",
+      "entities": [
+        "le-hoi",
+        "ngoc-hoi",
+        "khuong-thuong",
+        "quang-trung",
+        "tay-son"
+      ],
+      "keywords": [
+        "lễ hội",
+        "tưởng nhớ",
+        "hằng năm"
+      ],
+      "citation": 5,
+      "score": 0.5114,
+      "publisher": "Báo Điện tử Chính phủ",
+      "source_title": "Chiến thắng hiển hách trong lịch sử chống ngoại xâm",
+      "source_url": "https://baochinhphu.vn/chien-thang-hien-hach-trong-lich-su-chong-ngoai-xam-102138325.htm",
+      "source_note": "Nguồn gọi chỉ huy hướng Đống Đa là Đặng Tiến Đông và nêu quân số Thanh 20 vạn; giữ nguyên cách ghi khi đối chiếu.",
+      "category_title": "Ý nghĩa & di sản",
+      "event_dates": [],
+      "local_url": "/api/records/le-hoi-dong-da",
+      "via": [
+        "Ngọc Hồi",
+        "Quân Tây Sơn",
+        "Quang Trung"
+      ],
+      "graph_expanded": false
+    },
+    {
+      "id": "tam-chan",
+      "category": "nghe-thuat",
+      "title": "Tấm chắn trong trận Ngọc Hồi",
+      "source_id": "btlsqg-2014",
+      "text": "Ở Ngọc Hồi, quân Tây Sơn dùng tượng binh mở đường và đội xung kích mang lá chắn bằng ván gỗ bọc rơm ướt để áp sát chiến lũy quân Thanh. Sự phối hợp này giúp vượt qua hỏa lực phòng thủ rồi đánh giáp chiến.",
+      "entities": [
+        "ngoc-hoi",
+        "tay-son",
+        "tuong-binh",
+        "quan-thanh"
+      ],
+      "keywords": [
+        "chiến thuật",
+        "tấm chắn",
+        "rơm ướt",
+        "hỏa lực",
+        "vũ khí"
+      ],
+      "citation": 6,
+      "score": 0.4634,
+      "publisher": "Bảo tàng Lịch sử Quốc gia",
+      "source_title": "Quang Trung – Nguyễn Huệ đại phá quân Thanh",
+      "source_url": "https://baotanglichsu.vn/VI/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html",
+      "source_note": "Bài tổng hợp kỷ niệm chiến thắng; các ghi chép trong dự án là diễn giải có nguồn.",
+      "category_title": "Tổ chức & nghệ thuật quân sự",
+      "event_dates": [],
+      "local_url": "/api/records/tam-chan",
+      "via": [
+        "Ngọc Hồi",
+        "Quân Tây Sơn",
+        "Tượng binh"
+      ],
+      "graph_expanded": false
+    }
+  ],
+  "concepts": [
+    "ha-hoi",
+    "ngoc-hoi"
+  ],
+  "backend": "embeddinggemma + TF-IDF + BM25",
+  "warnings": [],
+  "graph_added": 0,
+  "answer": "Hà Hồi được hạ vào ngày 28/1/1789 (Mồng 3 Tết Kỷ Dậu), khi quân Tây Sơn bao vây và buộc đồn Hà Hồi đầu hàng trước trận Ngọc Hồi. [1]\n\nTrận đánh tại Hà Hồi xảy ra trước trận Ngọc Hồi, cụ thể là vào ngày 28/1/1789, trước khi quân Tây Sơn tiến công Ngọc Hồi vào ngày 30/1/1789 (Mồng 5 Tết Kỷ Dậu). [2]",
+  "answer_mode": "generated",
+  "generation_warning": null,
+  "mode": "graph",
+  "model": "qwen3:1.7b",
+  "context_citations": [
+    1,
+    2
+  ],
+  "elapsed_ms": 19614
+}
